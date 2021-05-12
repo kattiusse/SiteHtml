@@ -1,0 +1,158 @@
+@font-face {
+font-family: "FreedoomedDemo";
+src: url("../fonts/FreedoomedDemo.ttf");
+}
+
+@font-face {
+font-family: "BebasNeue";
+src: url("../fonts/BebasNeue.otf");
+}
+
+@font-face {
+font-family: "Calibri";
+src: url("../fonts/calibri.ttf");
+}
+
+body {
+background-image: url("../imagens/fundo.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-origin: border-box;
+}
+
+header {
+position: absolute;
+width: 1348px;
+top: 0;
+left: 0;
+background-color: black;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+height: 150px;
+}
+
+#logo {
+position: relative;
+margin-top: 15px;
+margin-left: 60px;
+float: left;
+width: 110px;
+}
+
+#texto {
+position: relative;
+float: right;
+font-family: "FreedoomedDemo";
+font-weight: bold;
+font-size: 30pt;
+color: white;
+text-align: left;
+margin-right: 490px;
+padding-bottom: 0px;
+margin-bottom: -31px;
+margin-top: 20px;
+}
+
+#texto a:link {
+color: white;
+text-decoration: none;
+}
+
+#texto a:visited {
+color: white;
+text-decoration: none;
+}
+
+#texto a:hover {
+color: white;
+text-decoration: none;
+}
+
+ul a:link {
+color: rgba(114, 114, 114, 1);
+text-decoration: none;
+}
+
+ul a:visited {
+color: rgba(161, 161, 161, 1);
+text-decoration: none;
+}
+
+ul a:hover {
+color: rgba(161, 161, 161, 1);
+text-decoration: none;
+}
+
+ul {
+position: relative;
+top: 10px;
+left: 60px;
+}
+
+li {
+font-family: "Bebas Neue";
+font-size: 25pt;
+font-weight: bold;
+padding: 30px;
+display: inline-block;
+text-align: center;
+vertical-align: center;
+}
+
+#inicio {
+padding-left: 0px;
+}
+
+#textbanner {
+padding-left: 50px;
+padding-right: 45px
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+#banner {
+width: 1100px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+#cervejaria {
+display: block;
+background-color: black;
+border-radius: 10px;
+width: 1100px;
+margin-left: 100px;
+margin-top: 200px;
+
+}
+
+section p{
+font-family: 'Calibri';
+color: white;
+font-size: 16pt;
+text-align: justify;
+padding-right: 60px;
+text-indent: 35px;
+}
+
+footer {
+margin-left: -8px;
+margin-bottom: -8px;
+left: 0;
+bottom: 0;
+
+width: 1348px;
+background-color: black;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+height: 60px;
+}
+
+#rodape {
+font-family: "Bebas Neue";
+font-size: 20pt;
+color: white;
+text-align: left;
+text-align: center;
+padding-top: 12px;
+}

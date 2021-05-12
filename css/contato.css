@@ -1,0 +1,316 @@
+@font-face {
+font-family: "FreedoomedDemo";
+src: url("../fonts/FreedoomedDemo.ttf");
+}
+
+@font-face {
+font-family: "BebasNeue";
+src: url("../fonts/BebasNeue.ttf");
+}
+
+@font-face {
+font-family: "Calibri";
+src: url("../fonts/calibri.ttf");
+}
+
+body {
+background-image: url("../imagens/fundo.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-origin: border-box;
+}
+
+header {
+position: absolute;
+width: 1348px;
+top: 0;
+left: 0;
+background-color: black;
+border-bottom-left-radius: 40px;
+border-bottom-right-radius: 40px;
+height: 150px;
+}
+
+#logo {
+position: relative;
+margin-top: 15px;
+margin-left: 60px;
+float: left;
+width: 110px;
+}
+
+#texto {
+position: relative;
+float: right;
+font-family: "FreedoomedDemo";
+font-weight: bold;
+font-size: 30pt;
+color: white;
+text-align: left;
+margin-right: 490px;
+padding-bottom: 0px;
+margin-bottom: -31px;
+margin-top: 20px;
+}
+
+#texto a:link {
+color: white;
+text-decoration: none;
+}
+
+#texto a:visited {
+color: white;
+text-decoration: none;
+}
+
+#texto a:hover {
+color: white;
+text-decoration: none;
+}
+
+ul a:link {
+color: rgba(114, 114, 114, 1);
+text-decoration: none;
+}
+
+ul a:visited {
+color: rgba(161, 161, 161, 1);
+text-decoration: none;
+}
+
+ul a:hover {
+color: rgba(161, 161, 161, 1);
+text-decoration: none;
+}
+
+ul {
+position: relative;
+top: 10px;
+left: 30px;
+}
+
+li {
+font-family: "BebasNeue";
+font-size: 25pt;
+font-weight: bold;
+padding: 30px;
+display: inline-block;
+text-align: center;
+vertical-align: center;
+}
+
+#contact {
+position: relative;
+top: 170px;
+left: 100px;
+font-family: "FreedoomedDemo";
+font-size: 30pt;
+color: black;
+margin-bottom: -25px;
+}
+
+#f1 {
+position: relative;
+width: 1200px;
+height: auto;
+top: 235px;
+left: 50px;
+background-color: black;
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+}
+
+section p{
+font-family: 'Calibri';
+color: white;
+font-size: 16pt;
+text-align: center;
+padding-right: 60px;
+text-indent: 70px;
+}
+
+
+footer {
+position: static;
+margin-top: 350px;
+margin-left: -8px;
+margin-bottom: -8px;
+left: 0;
+bottom: 0;
+width: 1348px;
+background-color: black;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+height: 60px;
+}
+
+#rodape {
+font-family: "BebasNeue";
+font-size: 20pt;
+color: white;
+text-align: left;
+text-align: center;
+padding-top: 12px;
+}
+
+input {
+	font-family: Calibri;
+	font-size: 14pt;
+	margin-bottom: 15px;
+	height: 40px;
+	width: 100%;
+}
+
+.sexos{
+	color: white;
+	font-family: Calibri;
+	font-size: 14pt;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	vertical-align: baseline;
+}
+
+#masc {
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+
+#fem {
+		width: 15px;
+		height: 15px;
+		margin-left: 30px;
+		margin-right: 10px;
+}
+
+#outro{
+		width: 15px;
+		height: 15px;
+		margin-left: 30px;
+		margin-right: 10px;
+}
+
+textarea {
+	font-family: Calibri;
+	font-size: 14pt;
+}
+
+.campos{
+	padding-bottom: 10px;
+	font-size: 16pt;
+	font-weight: bold;
+	color: white;
+}
+
+#nome {
+	background-color: white;
+	width: 500px;
+}
+
+#cpf {
+	background-color: white;
+	width: 200px;
+}
+
+#aniversario {
+	width: 230px;
+	height: 28px;
+}
+
+#endereco {
+	background-color: white;
+	width: 550px;
+}
+
+#telefone {
+	background-color: white;
+	width: 150px;
+}
+
+#email {
+	background-color: white;
+	width: 350px;
+}
+
+#mensagem {
+	background-color: white;
+}
+
+#erro_nome {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#erro_aniversario {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#erro_cpf {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#erro_endereco {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#erro_telefone {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#erro_email {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#erro_mensagem {
+	margin-bottom: 10px;
+	display: none;
+}
+
+
+form {
+	   font-family: Calibri;
+     margin-left: 240px;
+		 margin-top: 25px;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+span {
+color: yellow;
+font-size: 14pt;
+}
+
+
+.botao {
+       margin-left: 240px;
+       margin-top: 20px;
+			 padding-bottom: 40px;
+}
+
+.button {
+	font-family: Calibri;
+	font-size: 16pt;
+	background-color: #555555;
+	color: white;
+	padding: 10px 10px;
+  margin: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
